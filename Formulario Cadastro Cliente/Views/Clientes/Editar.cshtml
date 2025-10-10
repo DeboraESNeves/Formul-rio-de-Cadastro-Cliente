@@ -1,0 +1,210 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Formulario_Cadastro_Cliente.Models.EditClienteViewModel
+
+<h1>Editar Cliente</h1>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+@if (Model is null)
+{
+    <p>Cliente não encontrado com esse Id</p>
+}
+else
+{
+    <form method="post">
+        <div class="mt-3">
+            <label class="form-label">Id</label>
+            <input type="text" class="form-control" asp-for="Id" readonly />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Nome</label>
+            <input type="text" class="form-control" asp-for="Nome" id="Nome" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">CPF</label>
+            <input type="text"
+                   class="form-control"
+                   placeholder="000.000.000-00"
+                   maxlength="14"
+                   pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                   title="Informe um CPF no formato 000.000.000-00"
+                   required
+                   asp-for="Cpf"
+                   id="Cpf" />
+            <span asp-validation-for="Cpf" class="text-danger"></span>
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control"
+                   placeholder="Cliente@email.com"
+                   asp-for="Email"
+                   id="Email" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Telefone</label>
+            <input type="text" class="form-control"
+                   placeholder="(11)91234-5678"
+                   maxlength="15"
+                   pattern="\(\d{2}\)\d{4,5}-\d{4}"
+                   title="Informe um número de telefone válido no formato (11)91234-5678"
+                   required
+                   asp-for="Telefone"
+                   id="Telefone" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">CEP</label>
+            <input type="text"
+                   class="form-control"
+                   maxlength="8"
+                   pattern="\d{8}"
+                   asp-for="CEP"
+                   id="CEP" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Rua</label>
+            <input type="text" class="form-control" asp-for="Rua" id="Rua" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Bairro</label>
+            <input type="text" class="form-control" asp-for="Bairro" id="Bairro" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Cidade</label>
+            <input type="text" class="form-control" asp-for="Cidade" id="Cidade" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Estado</label>
+            <input type="text" class="form-control" asp-for="Estado" id="Estado" />
+        </div>
+
+        <div class="mt-3">
+            <input type="checkbox" class="form-check" asp-for="Ativo" id="Ativo" />
+            <label class="form-check-label" for="Ativo">Ativo</label>
+        </div>
+
+        <div class="mt-3">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+            <button type="submit" class="btn btn-danger ms-3" asp-action="Deletar" asp-controller="Clientes">Deletar</button>
+        </div>
+    </form>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.querySelector("form");
+
+            form.addEventListener("submit", function (e) {
+                let valido = true;
+                let mensagens = [];
+
+                const nome = document.getElementById("Nome").value.trim();
+                const cpf = document.getElementById("Cpf").value.trim();
+                const email = document.getElementById("Email").value.trim();
+                const telefone = document.getElementById("Telefone").value.trim();
+                const cep = document.getElementById("CEP").value.trim();
+
+                
+                if (nome === "") {
+                    valido = false;
+                    mensagens.push("O campo Nome é obrigatório.");
+                }
+                if (cpf === "") {
+                    valido = false;
+                    mensagens.push("O campo CPF é obrigatório.");
+                }
+                if (email === "") {
+                    valido = false;
+                    mensagens.push("O campo Email é obrigatório.");
+                }
+                if (telefone === "") {
+                    valido = false;
+                    mensagens.push("O campo Telefone é obrigatório.");
+                }
+                if (cep === "") {
+                    valido = false;
+                    mensagens.push("O campo CEP é obrigatório.");
+                }
+
+                // Validacao de formatos
+                const cpfRegex = /^\d{3}\.\d{3}\.\d{3}-\d{2}$/;
+                if (cpf && !cpfRegex.test(cpf)) {
+                    valido = false;
+                    mensagens.push("O CPF deve estar no formato 000.000.000-00.");
+                }
+
+                const telRegex = /^\(\d{2}\)\d{4,5}-\d{4}$/;
+                if (telefone && !telRegex.test(telefone)) {
+                    valido = false;
+                    mensagens.push("Telefone deve estar no formato (11)91234-5678.");
+                }
+
+                const cepRegex = /^\d{8}$/;
+                if (cep && !cepRegex.test(cep)) {
+                    valido = false;
+                    mensagens.push("CEP deve conter exatamente 8 dígitos numéricos.");
+                }
+
+
+                if (!valido) {
+                    e.preventDefault();
+                    alert(mensagens.join("\n"));
+                }
+            });
+
+            // Gera endereco ao digitar CEP
+            const cepInput = document.getElementById("CEP");
+            cepInput.addEventListener("blur", function () {
+                const cep = cepInput.value.trim();
+
+                if (cep.length === 8 && /^\d{8}$/.test(cep)) {
+                    fetch(`https://viacep.com.br/ws/${cep}/json/`)
+                        .then(response => response.json())
+                        .then(data => {
+                            if (!data.erro) {
+                                document.getElementById("Rua").value = data.logradouro || "";
+                                document.getElementById("Bairro").value = data.bairro || "";
+                                document.getElementById("Cidade").value = data.localidade || "";
+                                document.getElementById("Estado").value = data.uf || "";
+                            } else {
+                                alert("CEP não encontrado.");
+                            }
+                        })
+                        .catch(error => {
+                            console.error("Erro ao consultar o CEP:", error);
+                            alert("Erro ao consultar o CEP.");
+                        });
+                }
+            });
+        });
+    </script>
+}
+
