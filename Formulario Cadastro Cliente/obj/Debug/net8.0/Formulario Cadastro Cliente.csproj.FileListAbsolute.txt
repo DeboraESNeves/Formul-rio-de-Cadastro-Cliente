@@ -172,3 +172,16 @@ C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formula
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\Formulario Cadastro Cliente.genruntimeconfig.cache
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\ref\Formulario Cadastro Cliente.dll
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Serilog.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\Serilog.Sinks.File.dll

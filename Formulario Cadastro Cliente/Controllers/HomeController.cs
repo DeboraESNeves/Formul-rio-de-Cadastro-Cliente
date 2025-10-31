@@ -13,12 +13,13 @@ namespace Formulario_Cadastro_Cliente.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+
+        public IActionResult Add()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Editar()
         {
             return View();
         }

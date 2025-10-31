@@ -1,0 +1,666 @@
+[2025-10-16 15:55:35] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-16 15:55:35] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-16 15:56:42] [INFO] Cliente (id=77) excluído com sucesso.
+[2025-10-16 16:11:34] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-16 16:11:34] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-16 16:12:11] [INFO] Tentativa de listagem cliente
+[2025-10-16 16:12:42] [INFO] Tentativa de editar cliente
+[2025-10-16 16:12:44] [INFO] Cliente Cliente 17 atualizado com sucesso.
+[2025-10-16 16:12:44] [INFO] Tentativa de listagem cliente
+[2025-10-16 16:16:23] [INFO] Tentativa de cadastrar cliente
+[2025-10-16 16:16:28] [INFO] Cliente Kaio Vicente cadastrado com sucesso.
+[2025-10-16 16:16:28] [INFO] Tentativa de listagem cliente
+[2025-10-16 16:22:47] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-16 16:22:47] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-16 16:23:23] [INFO] Tentativa de cadastrar cliente
+[2025-10-16 16:23:23] [INFO] Cliente DEBORA EVELYN DE SOUZA NEVES cadastrado com sucesso.
+[2025-10-16 16:23:23] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:09:05] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 11:09:05] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 11:09:46] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 11:09:46] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 11:10:58] [INFO] Tentativa de cadastrar cliente
+[2025-10-17 11:11:00] [INFO] Cliente Giovanna Cross cadastrado com sucesso.
+[2025-10-17 11:11:00] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:11:30] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:11:54] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:12:04] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:12:07] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:12:07] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:12:11] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:13:25] [INFO] Tentativa de editar cliente
+[2025-10-17 11:13:25] [INFO] Cliente Giovanna Cross atualizado com sucesso.
+[2025-10-17 11:13:25] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:14:47] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:14:54] [INFO] Tentativa de excluir cliente
+[2025-10-17 11:14:54] [INFO] Cliente (id=119) excluído com sucesso.
+[2025-10-17 11:14:54] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:36:10] [INFO] Tentativa de cadastrar cliente
+[2025-10-17 11:36:11] [INFO] Cliente Paulo Rodrigues da Cunha Junior cadastrado com sucesso.
+[2025-10-17 11:36:11] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:36:20] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:36:32] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:36:47] [INFO] Tentativa de editar cliente
+[2025-10-17 11:36:48] [INFO] Cliente Paulo Rodrigues da Cunha Junior atualizado com sucesso.
+[2025-10-17 11:36:48] [INFO] Tentativa de listagem cliente
+[2025-10-17 11:37:22] [INFO] Tentativa de excluir cliente
+[2025-10-17 11:37:22] [INFO] Cliente (id=78) excluído com sucesso.
+[2025-10-17 11:37:22] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:36:28] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 12:36:28] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 12:42:09] [INFO] Tentativa de cadastrar cliente
+[2025-10-17 12:42:10] [INFO] Cliente Claudio de Assis cadastrado com sucesso.
+[2025-10-17 12:42:10] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:42:10] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:42:10] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-17 12:42:25] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:42:25] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:42:25] [INFO] Busca concluída. 28 clientes encontrados.
+[2025-10-17 12:42:34] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:42:34] [INFO] Tentando buscar clientes. Termo: 'claudio', Página: 1
+[2025-10-17 12:42:34] [INFO] Busca concluída. 1 clientes encontrados.
+[2025-10-17 12:43:02] [INFO] Tentando buscar cliente com ID 121.
+[2025-10-17 12:43:02] [INFO] Cliente Claudio de Assis (ID 121) encontrado com sucesso.
+[2025-10-17 12:43:15] [INFO] Tentativa de editar cliente
+[2025-10-17 12:43:15] [INFO] Cliente Claudio de Assis atualizado com sucesso.
+[2025-10-17 12:43:15] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:43:15] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:43:15] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-17 12:44:59] [INFO] Tentativa de cadastrar cliente
+[2025-10-17 12:44:59] [INFO] Cliente Adriano Alves de Souza cadastrado com sucesso.
+[2025-10-17 12:44:59] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:44:59] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:44:59] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 12:45:01] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-17 12:45:01] [INFO] Cliente Adriano Alves de Souza (ID 122) encontrado com sucesso.
+[2025-10-17 12:45:11] [INFO] Tentativa de editar cliente
+[2025-10-17 12:45:13] [INFO] Cliente Adriano Alves de Souza atualizado com sucesso.
+[2025-10-17 12:45:13] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:45:13] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:45:13] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 12:45:15] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-17 12:45:15] [INFO] Cliente Adriano Alves de Souza (ID 122) encontrado com sucesso.
+[2025-10-17 12:45:39] [INFO] Tentativa de editar cliente
+[2025-10-17 12:45:40] [INFO] Cliente Adriano Alves de Souza atualizado com sucesso.
+[2025-10-17 12:45:40] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:45:40] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:45:40] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 12:45:41] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-17 12:45:41] [INFO] Cliente Adriano Alves de Souza (ID 122) encontrado com sucesso.
+[2025-10-17 12:45:52] [INFO] Tentativa de editar cliente
+[2025-10-17 12:45:52] [INFO] Cliente Adriano Alves de Souza atualizado com sucesso.
+[2025-10-17 12:45:52] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:45:52] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:45:52] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 12:45:54] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-17 12:45:54] [INFO] Cliente Adriano Alves de Souza (ID 122) encontrado com sucesso.
+[2025-10-17 12:46:48] [INFO] Tentativa de editar cliente
+[2025-10-17 12:46:48] [INFO] Cliente Adriano Alves de Souza atualizado com sucesso.
+[2025-10-17 12:46:48] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:46:48] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:46:48] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 12:46:50] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-17 12:46:50] [INFO] Cliente Adriano Alves de Souza (ID 122) encontrado com sucesso.
+[2025-10-17 12:48:04] [INFO] Tentativa de editar cliente
+[2025-10-17 12:48:05] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-17 12:48:05] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:48:05] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:48:05] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 12:48:07] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-17 12:48:07] [INFO] Cliente Adriano (ID 122) encontrado com sucesso.
+[2025-10-17 12:48:38] [INFO] Tentativa de editar cliente
+[2025-10-17 12:48:38] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-17 12:48:38] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:48:38] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:48:38] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 12:48:41] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-17 12:48:41] [INFO] Cliente Adriano (ID 122) encontrado com sucesso.
+[2025-10-17 12:48:48] [INFO] Tentativa de editar cliente
+[2025-10-17 12:48:48] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-17 12:48:48] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:48:48] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:48:48] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 12:48:49] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-17 12:48:49] [INFO] Cliente Adriano (ID 122) encontrado com sucesso.
+[2025-10-17 12:52:27] [INFO] Tentativa de editar cliente
+[2025-10-17 12:52:28] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-17 12:52:28] [INFO] Tentativa de listagem cliente
+[2025-10-17 12:52:28] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 12:52:28] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 13:07:19] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 13:07:19] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 13:21:10] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 13:21:11] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 13:27:01] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 13:27:01] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 14:06:43] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 14:06:43] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 14:24:14] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 14:24:14] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 14:42:24] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 14:42:24] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 14:57:44] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 14:57:44] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 15:25:16] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 15:25:16] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 15:44:02] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 15:44:02] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 15:48:47] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 15:48:47] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 15:50:22] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-17 15:50:22] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-17 15:50:46] [INFO] Tentativa de cadastrar cliente
+[2025-10-17 15:50:47] [INFO] Cliente DEBORA EVELYN DE SOUZA NEVES cadastrado com sucesso.
+[2025-10-17 15:50:47] [INFO] Tentativa de listagem cliente
+[2025-10-17 15:50:47] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 15:50:47] [INFO] Busca concluída. 52 clientes encontrados.
+[2025-10-17 15:50:52] [INFO] Tentativa de listagem cliente
+[2025-10-17 15:50:52] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 15:50:52] [INFO] Busca concluída. 52 clientes encontrados.
+[2025-10-17 15:50:58] [INFO] Tentativa de listagem cliente
+[2025-10-17 15:50:58] [INFO] Tentando buscar clientes. Termo: 'Debora', Página: 1
+[2025-10-17 15:50:58] [INFO] Busca concluída. 3 clientes encontrados.
+[2025-10-17 15:51:05] [INFO] Tentativa de excluir cliente
+[2025-10-17 15:51:05] [INFO] Tentando buscar cliente com ID 123.
+[2025-10-17 15:51:05] [INFO] Cliente DEBORA EVELYN DE SOUZA NEVES (ID 123) encontrado com sucesso.
+[2025-10-17 15:51:05] [INFO] Cliente (id=123) excluído com sucesso.
+[2025-10-17 15:51:05] [INFO] Tentativa de listagem cliente
+[2025-10-17 15:51:05] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 15:51:05] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-17 15:51:10] [INFO] Tentativa de listagem cliente
+[2025-10-17 15:51:10] [INFO] Tentando buscar clientes. Termo: 'Debora', Página: 1
+[2025-10-17 15:51:10] [INFO] Busca concluída. 2 clientes encontrados.
+[2025-10-17 15:51:12] [INFO] Tentativa de excluir cliente
+[2025-10-17 15:51:12] [INFO] Tentando buscar cliente com ID 118.
+[2025-10-17 15:51:12] [INFO] Cliente DEBORA EVELYN DE SOUZA NEVES (ID 118) encontrado com sucesso.
+[2025-10-17 15:51:12] [INFO] Cliente (id=118) excluído com sucesso.
+[2025-10-17 15:51:12] [INFO] Tentativa de listagem cliente
+[2025-10-17 15:51:12] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 15:51:12] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-17 15:51:17] [INFO] Tentativa de listagem cliente
+[2025-10-17 15:51:17] [INFO] Tentando buscar clientes. Termo: 'de', Página: 1
+[2025-10-17 15:51:17] [INFO] Busca concluída. 2 clientes encontrados.
+[2025-10-17 15:51:22] [INFO] Tentativa de excluir cliente
+[2025-10-17 15:51:22] [INFO] Tentando buscar cliente com ID 112.
+[2025-10-17 15:51:22] [INFO] Cliente DEBORA EVELYN DE SOUZA NEVES (ID 112) encontrado com sucesso.
+[2025-10-17 15:51:22] [INFO] Cliente (id=112) excluído com sucesso.
+[2025-10-17 15:51:22] [INFO] Tentativa de listagem cliente
+[2025-10-17 15:51:22] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 15:51:22] [INFO] Busca concluída. 49 clientes encontrados.
+[2025-10-17 15:52:53] [INFO] Tentativa de listagem cliente
+[2025-10-17 15:52:53] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-17 15:52:53] [INFO] Busca concluída. 49 clientes encontrados.
+[2025-10-20 11:24:49] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 11:24:49] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 11:26:22] [INFO] Tentativa de cadastrar cliente
+[2025-10-20 11:26:24] [INFO] Cliente João Machado cadastrado com sucesso.
+[2025-10-20 11:26:24] [INFO] Tentativa de listagem cliente
+[2025-10-20 11:26:24] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 11:26:24] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 11:26:32] [INFO] Tentativa de listagem cliente
+[2025-10-20 11:26:32] [INFO] Tentando buscar clientes. Termo: 'joao', Página: 1
+[2025-10-20 11:26:32] [INFO] Busca concluída. 0 clientes encontrados.
+[2025-10-20 11:26:45] [INFO] Tentativa de listagem cliente
+[2025-10-20 11:26:45] [INFO] Tentando buscar clientes. Termo: 'joão', Página: 1
+[2025-10-20 11:26:45] [INFO] Busca concluída. 1 clientes encontrados.
+[2025-10-20 11:26:48] [INFO] Tentando buscar cliente com ID 124.
+[2025-10-20 11:26:48] [INFO] Cliente João Machado (ID 124) encontrado com sucesso.
+[2025-10-20 11:27:08] [INFO] Tentativa de editar cliente
+[2025-10-20 11:27:08] [INFO] Cliente João Machado atualizado com sucesso.
+[2025-10-20 11:27:08] [INFO] Tentativa de listagem cliente
+[2025-10-20 11:27:08] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 11:27:08] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 11:27:14] [INFO] Tentativa de listagem cliente
+[2025-10-20 11:27:14] [INFO] Tentando buscar clientes. Termo: 'joão', Página: 1
+[2025-10-20 11:27:14] [INFO] Busca concluída. 1 clientes encontrados.
+[2025-10-20 11:27:22] [INFO] Tentativa de excluir cliente
+[2025-10-20 11:27:22] [INFO] Tentando buscar cliente com ID 124.
+[2025-10-20 11:27:22] [INFO] Cliente João Machado (ID 124) encontrado com sucesso.
+[2025-10-20 11:27:22] [INFO] Cliente (id=124) excluído com sucesso.
+[2025-10-20 11:27:22] [INFO] Tentativa de listagem cliente
+[2025-10-20 11:27:22] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 11:27:22] [INFO] Busca concluída. 49 clientes encontrados.
+[2025-10-20 11:37:37] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 11:37:37] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 11:53:06] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 11:53:06] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 12:23:15] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 12:23:15] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 12:26:54] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 12:26:54] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 12:31:20] [INFO] Tentativa de cadastrar cliente
+[2025-10-20 12:31:21] [INFO] Cliente Margarida Dias  cadastrado com sucesso.
+[2025-10-20 12:31:21] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:31:21] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 12:31:21] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 12:31:38] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:31:38] [INFO] Tentando buscar clientes. Termo: '', Página: 5
+[2025-10-20 12:31:38] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 12:31:40] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:31:40] [INFO] Tentando buscar clientes. Termo: '', Página: 4
+[2025-10-20 12:31:40] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 12:31:44] [INFO] Tentando buscar cliente com ID 125.
+[2025-10-20 12:31:44] [INFO] Cliente Margarida Dias  (ID 125) encontrado com sucesso.
+[2025-10-20 12:31:51] [INFO] Tentativa de editar cliente
+[2025-10-20 12:31:52] [INFO] Cliente Margarida Dias  atualizado com sucesso.
+[2025-10-20 12:31:52] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:31:52] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 12:31:52] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 12:31:54] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:31:54] [INFO] Tentando buscar clientes. Termo: '', Página: 4
+[2025-10-20 12:31:54] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 12:32:03] [INFO] Tentando buscar cliente com ID 125.
+[2025-10-20 12:32:03] [INFO] Cliente Margarida Dias  (ID 125) encontrado com sucesso.
+[2025-10-20 12:33:10] [INFO] Tentativa de editar cliente
+[2025-10-20 12:33:11] [INFO] Cliente Margarida Dias  atualizado com sucesso.
+[2025-10-20 12:33:11] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:33:11] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 12:33:11] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 12:33:17] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:33:17] [INFO] Tentando buscar clientes. Termo: 'margarida', Página: 1
+[2025-10-20 12:33:17] [INFO] Busca concluída. 1 clientes encontrados.
+[2025-10-20 12:33:18] [INFO] Tentando buscar cliente com ID 125.
+[2025-10-20 12:33:18] [INFO] Cliente Margarida Dias  (ID 125) encontrado com sucesso.
+[2025-10-20 12:33:35] [INFO] Tentativa de editar cliente
+[2025-10-20 12:33:35] [INFO] Cliente Margarida Dias  atualizado com sucesso.
+[2025-10-20 12:33:35] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:33:35] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 12:33:35] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 12:33:43] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:33:43] [INFO] Tentando buscar clientes. Termo: 'margarida', Página: 1
+[2025-10-20 12:33:43] [INFO] Busca concluída. 1 clientes encontrados.
+[2025-10-20 12:33:44] [INFO] Tentando buscar cliente com ID 125.
+[2025-10-20 12:33:44] [INFO] Cliente Margarida Dias  (ID 125) encontrado com sucesso.
+[2025-10-20 12:33:51] [INFO] Tentativa de editar cliente
+[2025-10-20 12:33:52] [INFO] Cliente Margarida Dias  atualizado com sucesso.
+[2025-10-20 12:33:52] [INFO] Tentativa de listagem cliente
+[2025-10-20 12:33:52] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 12:33:52] [INFO] Busca concluída. 50 clientes encontrados.
+[2025-10-20 13:38:02] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 13:38:02] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 14:03:46] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 14:03:46] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 14:14:05] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 14:14:05] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 14:19:54] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 14:19:54] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 14:21:15] [INFO] Tentativa de cadastrar cliente
+[2025-10-20 14:21:16] [INFO] Cliente Hanna Montana cadastrado com sucesso.
+[2025-10-20 14:21:16] [INFO] Tentativa de listagem cliente
+[2025-10-20 14:21:16] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 14:21:16] [INFO] Busca concluída. 51 clientes encontrados.
+[2025-10-20 14:22:24] [INFO] Tentativa de cadastrar cliente
+[2025-10-20 14:22:24] [INFO] Cliente Fabiano de Carvalho Moura cadastrado com sucesso.
+[2025-10-20 14:22:24] [INFO] Tentativa de listagem cliente
+[2025-10-20 14:22:24] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 14:22:24] [INFO] Busca concluída. 52 clientes encontrados.
+[2025-10-20 14:47:53] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 14:47:53] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 14:48:35] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 14:48:35] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 14:49:29] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 14:49:29] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 14:53:31] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 14:53:31] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 14:54:12] [INFO] Tentativa de cadastrar cliente
+[2025-10-20 14:54:13] [INFO] Cliente rafa cadastrado com sucesso.
+[2025-10-20 14:54:13] [INFO] Tentativa de listagem cliente
+[2025-10-20 14:54:13] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 14:54:13] [INFO] Busca concluída. 53 clientes encontrados.
+[2025-10-20 14:54:50] [INFO] Tentativa de cadastrar cliente
+[2025-10-20 14:54:51] [INFO] Cliente DEBORA EVELYN DE SOUZA NEVES cadastrado com sucesso.
+[2025-10-20 14:54:51] [INFO] Tentativa de listagem cliente
+[2025-10-20 14:54:51] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 14:54:51] [INFO] Busca concluída. 54 clientes encontrados.
+[2025-10-20 14:56:07] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 14:56:07] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 15:00:27] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 15:00:27] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 15:27:28] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 15:27:28] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 15:41:37] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 15:41:37] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 16:10:53] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-20 16:10:53] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-20 16:22:38] [INFO] Tentativa de listagem cliente
+[2025-10-20 16:22:38] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 16:22:39] [INFO] Busca concluída. 54 clientes encontrados.
+[2025-10-20 16:22:41] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-20 16:22:41] [INFO] Cliente Adriano (ID 122) encontrado com sucesso.
+[2025-10-20 16:22:47] [INFO] Tentativa de editar cliente
+[2025-10-20 16:22:47] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-20 16:22:47] [INFO] Tentativa de listagem cliente
+[2025-10-20 16:22:47] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-20 16:22:47] [INFO] Busca concluída. 54 clientes encontrados.
+[2025-10-22 12:17:09] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 12:17:10] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 12:25:46] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 12:25:46] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 12:39:39] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 12:39:39] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 12:44:30] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 12:44:30] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 12:45:19] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 12:45:19] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 13:45:12] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 13:45:12] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 13:45:26] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 13:45:26] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 13:46:49] [INFO] Tentativa de cadastrar cliente
+[2025-10-22 13:46:49] [INFO] Cliente jane lima cadastrado com sucesso.
+[2025-10-22 13:46:49] [INFO] Tentativa de listagem cliente
+[2025-10-22 13:46:49] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 13:46:50] [INFO] Busca concluída. 55 clientes encontrados.
+[2025-10-22 13:58:50] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 13:58:50] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 14:45:18] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 14:45:18] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 14:46:39] [INFO] Tentativa de cadastrar cliente
+[2025-10-22 14:46:46] [INFO] Tentativa de cadastrar cliente
+[2025-10-22 14:47:09] [INFO] Tentativa de cadastrar cliente
+[2025-10-22 14:47:09] [INFO] Cliente Maria da Penha cadastrado com sucesso.
+[2025-10-22 14:47:09] [INFO] Tentativa de listagem cliente
+[2025-10-22 14:47:09] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 14:47:10] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 14:47:19] [INFO] Tentativa de carregar cliente com ID: 113
+[2025-10-22 14:47:19] [INFO] Tentando buscar cliente com ID 113.
+[2025-10-22 14:47:19] [INFO] Cliente Alice Guimarães (ID 113) encontrado com sucesso.
+[2025-10-22 14:47:50] [INFO] Tentativa de editar cliente
+[2025-10-22 14:47:51] [INFO] Cliente Alice Guimarães atualizado com sucesso.
+[2025-10-22 14:47:51] [INFO] Tentativa de listagem cliente
+[2025-10-22 14:47:51] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 14:47:51] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 14:47:56] [INFO] Tentativa de carregar cliente com ID: 122
+[2025-10-22 14:47:56] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-22 14:47:56] [INFO] Cliente Adriano (ID 122) encontrado com sucesso.
+[2025-10-22 14:48:03] [INFO] Tentativa de editar cliente
+[2025-10-22 14:48:03] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-22 14:48:03] [INFO] Tentativa de listagem cliente
+[2025-10-22 14:48:03] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 14:48:03] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 14:48:05] [INFO] Tentativa de carregar cliente com ID: 113
+[2025-10-22 14:48:05] [INFO] Tentando buscar cliente com ID 113.
+[2025-10-22 14:48:05] [INFO] Cliente Alice Guimarães (ID 113) encontrado com sucesso.
+[2025-10-22 14:48:09] [INFO] Tentativa de editar cliente
+[2025-10-22 14:48:10] [INFO] Cliente Alice Guimarães atualizado com sucesso.
+[2025-10-22 14:48:10] [INFO] Tentativa de listagem cliente
+[2025-10-22 14:48:10] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 14:48:10] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 14:48:20] [INFO] Tentativa de carregar cliente com ID: 113
+[2025-10-22 14:48:20] [INFO] Tentando buscar cliente com ID 113.
+[2025-10-22 14:48:20] [INFO] Cliente Alice Guimarães (ID 113) encontrado com sucesso.
+[2025-10-22 14:48:31] [INFO] Tentativa de editar cliente
+[2025-10-22 14:48:31] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-22 14:48:31] [INFO] Tentativa de listagem cliente
+[2025-10-22 14:48:31] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 14:48:31] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 15:10:31] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 15:10:31] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 15:10:45] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:10:45] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:10:46] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 15:10:49] [INFO] Tentativa de carregar cliente com ID: 113
+[2025-10-22 15:10:49] [INFO] Tentando buscar cliente com ID 113.
+[2025-10-22 15:10:49] [INFO] Cliente Adriano (ID 113) encontrado com sucesso.
+[2025-10-22 15:11:14] [INFO] Tentativa de editar cliente
+[2025-10-22 15:11:14] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-22 15:11:14] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:11:14] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:11:14] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 15:11:22] [INFO] Tentativa de carregar cliente com ID: 113
+[2025-10-22 15:11:22] [INFO] Tentando buscar cliente com ID 113.
+[2025-10-22 15:11:22] [INFO] Cliente Adriano (ID 113) encontrado com sucesso.
+[2025-10-22 15:11:45] [INFO] Tentativa de editar cliente
+[2025-10-22 15:11:45] [INFO] Cliente Alice Guimarães atualizado com sucesso.
+[2025-10-22 15:11:45] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:11:45] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:11:45] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 15:11:50] [INFO] Tentativa de carregar cliente com ID: 122
+[2025-10-22 15:11:50] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-22 15:11:50] [INFO] Cliente Adriano (ID 122) encontrado com sucesso.
+[2025-10-22 15:11:59] [INFO] Tentativa de editar cliente
+[2025-10-22 15:11:59] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-22 15:11:59] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:11:59] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:11:59] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 15:17:24] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 15:17:24] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 15:17:40] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:17:40] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:17:40] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 15:17:44] [INFO] Tentativa de carregar cliente com ID: 122
+[2025-10-22 15:17:44] [INFO] Tentando buscar cliente com ID 122.
+[2025-10-22 15:17:44] [INFO] Cliente Adriano (ID 122) encontrado com sucesso.
+[2025-10-22 15:17:49] [INFO] Tentativa de editar cliente
+[2025-10-22 15:17:50] [INFO] Cliente Adriano atualizado com sucesso.
+[2025-10-22 15:17:50] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:17:50] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:17:50] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 15:18:42] [INFO] Tentativa de cadastrar cliente
+[2025-10-22 15:18:49] [INFO] Tentativa de cadastrar cliente
+[2025-10-22 15:18:50] [INFO] Cliente Cora Valverdi cadastrado com sucesso.
+[2025-10-22 15:18:50] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:18:50] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:18:50] [INFO] Busca concluída. 57 clientes encontrados.
+[2025-10-22 15:18:55] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:18:55] [INFO] Tentando buscar clientes. Termo: 'cora', Página: 1
+[2025-10-22 15:18:55] [INFO] Busca concluída. 1 clientes encontrados.
+[2025-10-22 15:18:58] [INFO] Tentativa de carregar cliente com ID: 132
+[2025-10-22 15:18:58] [INFO] Tentando buscar cliente com ID 132.
+[2025-10-22 15:18:58] [INFO] Cliente Cora Valverdi (ID 132) encontrado com sucesso.
+[2025-10-22 15:19:19] [INFO] Tentativa de editar cliente
+[2025-10-22 15:19:20] [INFO] Cliente Cora Valverdi atualizado com sucesso.
+[2025-10-22 15:19:20] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:19:20] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:19:20] [INFO] Busca concluída. 57 clientes encontrados.
+[2025-10-22 15:22:31] [INFO] Tentativa de excluir cliente
+[2025-10-22 15:22:31] [INFO] Tentando buscar cliente com ID 121.
+[2025-10-22 15:22:31] [INFO] Cliente Claudio de Assis (ID 121) encontrado com sucesso.
+[2025-10-22 15:22:31] [INFO] Cliente (id=121) excluído com sucesso.
+[2025-10-22 15:22:31] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:22:31] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:22:31] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-22 15:22:36] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:22:36] [INFO] Tentando buscar clientes. Termo: 'claudio', Página: 1
+[2025-10-22 15:22:36] [INFO] Busca concluída. 0 clientes encontrados.
+[2025-10-22 15:22:44] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:22:44] [INFO] Tentando buscar clientes. Termo: 'alice', Página: 1
+[2025-10-22 15:22:44] [INFO] Busca concluída. 1 clientes encontrados.
+[2025-10-22 15:22:48] [INFO] Tentativa de excluir cliente
+[2025-10-22 15:22:48] [INFO] Tentando buscar cliente com ID 113.
+[2025-10-22 15:22:48] [INFO] Cliente Alice Guimarães (ID 113) encontrado com sucesso.
+[2025-10-22 15:22:48] [INFO] Cliente (id=113) excluído com sucesso.
+[2025-10-22 15:22:48] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:22:48] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:22:48] [INFO] Busca concluída. 55 clientes encontrados.
+[2025-10-22 15:22:51] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:22:51] [INFO] Tentando buscar clientes. Termo: '45943843827', Página: 1
+[2025-10-22 15:22:51] [INFO] Busca concluída. 1 clientes encontrados.
+[2025-10-22 15:22:59] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:22:59] [INFO] Tentando buscar clientes. Termo: '47', Página: 1
+[2025-10-22 15:22:59] [INFO] Busca concluída. 2 clientes encontrados.
+[2025-10-22 15:23:09] [INFO] Tentativa de carregar cliente com ID: 71
+[2025-10-22 15:23:09] [INFO] Tentando buscar cliente com ID 71.
+[2025-10-22 15:23:09] [INFO] Cliente Jeferson Juliano (ID 71) encontrado com sucesso.
+[2025-10-22 15:23:11] [INFO] Tentativa de editar cliente
+[2025-10-22 15:23:12] [INFO] Cliente Jeferson Juliano atualizado com sucesso.
+[2025-10-22 15:23:12] [INFO] Tentativa de listagem cliente
+[2025-10-22 15:23:12] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-22 15:23:12] [INFO] Busca concluída. 55 clientes encontrados.
+[2025-10-22 15:28:29] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 15:28:29] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 15:29:34] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 15:29:34] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-22 16:20:38] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-22 16:20:38] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 10:45:40] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-28 10:45:40] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 10:50:19] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-28 10:50:19] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 10:51:33] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 10:51:34] [INFO] Cliente Peder Eli cadastrado com sucesso.
+[2025-10-28 10:51:34] [INFO] Tentativa de listagem cliente
+[2025-10-28 10:51:34] [INFO] Tentando buscar clientes. Termo: '', Página: 1
+[2025-10-28 10:51:34] [INFO] Busca concluída. 56 clientes encontrados.
+[2025-10-28 10:51:39] [INFO] Tentativa de listagem cliente
+[2025-10-28 10:51:39] [INFO] Tentando buscar clientes. Termo: 'peder', Página: 1
+[2025-10-28 10:51:39] [INFO] Busca concluída. 1 clientes encontrados.
+[2025-10-28 10:51:41] [INFO] Tentativa de carregar cliente com ID: 133
+[2025-10-28 10:51:41] [INFO] Tentando buscar cliente com ID 133.
+[2025-10-28 10:51:41] [INFO] Cliente Peder Eli (ID 133) encontrado com sucesso.
+[2025-10-28 10:52:11] [ERROR] Erro ao consultar CEP 56689895: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+Exception: System.Text.Json.JsonException: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a boolean.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedBoolean(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.GetBoolean()
+   at System.Text.Json.Serialization.Converters.BooleanConverter.Read(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Formulario_Cadastro_Cliente.Services.ClienteService.ConsultarEnderecoPorCep(String cep) in C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\Services\ClienteService.cs:line 35
+[2025-10-28 10:52:49] [ERROR] Erro ao consultar CEP 56689895: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+Exception: System.Text.Json.JsonException: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a boolean.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedBoolean(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.GetBoolean()
+   at System.Text.Json.Serialization.Converters.BooleanConverter.Read(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Formulario_Cadastro_Cliente.Services.ClienteService.ConsultarEnderecoPorCep(String cep) in C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\Services\ClienteService.cs:line 35
+[2025-10-28 10:52:55] [ERROR] Erro ao consultar CEP 56689895: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+Exception: System.Text.Json.JsonException: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a boolean.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedBoolean(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.GetBoolean()
+   at System.Text.Json.Serialization.Converters.BooleanConverter.Read(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Formulario_Cadastro_Cliente.Services.ClienteService.ConsultarEnderecoPorCep(String cep) in C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\Services\ClienteService.cs:line 35
+[2025-10-28 13:50:05] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-28 13:50:05] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 14:04:02] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-28 14:04:03] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 14:07:19] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-28 14:07:19] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 15:17:52] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-28 15:17:52] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 15:18:07] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:18:20] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:18:42] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:19:01] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:19:16] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:19:16] [ERROR] Erro ao consultar CEP 00000000: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+Exception: System.Text.Json.JsonException: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a boolean.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedBoolean(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.GetBoolean()
+   at System.Text.Json.Serialization.Converters.BooleanConverter.Read(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Formulario_Cadastro_Cliente.Services.ClienteService.ConsultarEnderecoPorCep(String cep) in C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\Services\ClienteService.cs:line 35
+[2025-10-28 15:19:35] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:19:36] [ERROR] Erro ao consultar CEP 00000000: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+Exception: System.Text.Json.JsonException: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a boolean.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedBoolean(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.GetBoolean()
+   at System.Text.Json.Serialization.Converters.BooleanConverter.Read(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Formulario_Cadastro_Cliente.Services.ClienteService.ConsultarEnderecoPorCep(String cep) in C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\Services\ClienteService.cs:line 35
+[2025-10-28 15:19:50] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:19:54] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:20:13] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:20:20] [ERROR] Erro ao consultar CEP 00000000: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+Exception: System.Text.Json.JsonException: The JSON value could not be converted to System.Boolean. Path: $.erro | LineNumber: 1 | BytePositionInLine: 16.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a boolean.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedBoolean(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.GetBoolean()
+   at System.Text.Json.Serialization.Converters.BooleanConverter.Read(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Formulario_Cadastro_Cliente.Services.ClienteService.ConsultarEnderecoPorCep(String cep) in C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\Services\ClienteService.cs:line 35
+[2025-10-28 15:21:30] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:21:43] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:21:45] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:21:48] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:31:05] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-28 15:31:05] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 15:31:06] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:31:30] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-28 15:31:30] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 15:31:56] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:33:17] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:34:06] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:34:23] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:35:22] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:35:29] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:42:23] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-28 15:42:23] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-28 15:42:24] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:42:38] [INFO] Tentativa de cadastrar cliente
+[2025-10-28 15:42:42] [INFO] Tentativa de cadastrar cliente
+[2025-10-29 12:12:01] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-29 12:12:01] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-29 12:12:09] [INFO] Tentativa de cadastrar cliente
+[2025-10-29 14:41:18] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-29 14:41:18] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-29 14:41:53] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-29 14:41:53] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-29 14:50:52] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-29 14:50:52] [INFO] Teste de conexão concluído com sucesso.
+[2025-10-29 14:51:20] [INFO] Banco de dados inicializado com sucesso.
+[2025-10-29 14:51:20] [INFO] Teste de conexão concluído com sucesso.
