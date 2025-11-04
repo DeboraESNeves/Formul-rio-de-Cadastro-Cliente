@@ -40,22 +40,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-// Paginação
-app.MapGet("/clientes/List", async (AppDbContext db, int page = 0, int size = 10) =>
-    {
-        var clients = await db.Clientes
-        .OrderBy(c => c.Id)
-        .Skip(page * size)
-        .Take(size)
-        .ToListAsync();
-
-        var totalRecords = db.Clientes.Count();
-        var pagedClients = new PageResult<Cliente>(clients, page, size, totalRecords);
-
-        return Results.Ok(clients);
-    });
-
-
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

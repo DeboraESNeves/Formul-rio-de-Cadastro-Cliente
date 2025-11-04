@@ -15,7 +15,6 @@ namespace Formulario_Cadastro_Cliente.Controllers
             _httpClient = httpClientFactory.CreateClient();
         }
 
-
         private async Task<EnderecoViaCep> ConsultarEnderecoPorCep(string cep)
         {
             var response = await _httpClient.GetAsync($"https://viacep.com.br/ws/{cep}/json/");
@@ -77,8 +76,10 @@ namespace Formulario_Cadastro_Cliente.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> List(bool apenasAtivos = false)
+        public async Task<IActionResult> List(int pagina = 1, bool apenasAtivos = false)
         {
+            const int tamanhoPagina = 10;
+
             var clientesQuery = dbContext.Clientes
                 .Include(c => c.Endereco)
                 .AsQueryable();
@@ -88,10 +89,25 @@ namespace Formulario_Cadastro_Cliente.Controllers
                 clientesQuery = clientesQuery.Where(c => c.Ativo);
             }
 
-            var clientes = await clientesQuery.ToListAsync();
-            ViewBag.ApenasAtivos = apenasAtivos;
+            int totalItens = await clientesQuery.CountAsync();
 
-            return View(clientes);
+            var pageResult = new PageResult(totalItens, pagina, tamanhoPagina);
+            var clientesPagina = await clientesQuery
+                .Skip((pageResult.PaginaAtual - 1) * pageResult.TamanhoPagina)
+                .Take(pageResult.TamanhoPagina)
+                .ToListAsync();
+
+            var viewModel = new ClienteListViewModel
+            {
+                Clientes = clientesPagina,
+                Paginacao = pageResult,
+                ApenasAtivos = apenasAtivos
+            };
+
+            //var clientes = await clientesQuery.ToListAsync();
+            //ViewBag.ApenasAtivos = apenasAtivos;
+
+            return View(viewModel);
         }
 
         [HttpGet]
