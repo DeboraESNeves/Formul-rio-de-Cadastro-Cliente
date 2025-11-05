@@ -7,64 +7,32 @@
       "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\clientes\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\clientelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\clientelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\pageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\pageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\services\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:services\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\editclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\editclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\addclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\addclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\services\\viacepservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,12 +43,48 @@
       "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:services\\appserviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\enderecoviacep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\enderecoviacep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\clientes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\clientes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\addclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\addclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\pageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\pageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\editclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\editclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\models\\enderecoviacep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|solutionrelative:models\\enderecoviacep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D3CCFEF-C45B-4B73-9E98-BAA8BF5FD558}|Formulario Cadastro Cliente.csproj|c:\\users\\debor\\source\\repos\\deboraesneves\\formul-rio-de-cadastro-cliente\\formulario cadastro cliente\\views\\clientes\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -94,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,27 +110,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteListViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\ClienteListViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ClienteListViewModel.cs",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\ClienteListViewModel.cs",
-              "RelativeToolTip": "Models\\ClienteListViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T19:27:01.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
               "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T17:34:59.376Z"
+              "WhenOpened": "2025-10-31T17:34:59.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -134,48 +127,90 @@
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Clientes\\List.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\List.cshtml",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Clientes\\List.cshtml",
-              "RelativeToolTip": "Views\\Clientes\\List.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Clientes\\List.cshtml*",
+              "RelativeToolTip": "Views\\Clientes\\List.cshtml*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-02T17:33:17.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Models\\Cliente.cs",
               "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\Cliente.cs",
               "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA2wAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T17:43:42.623Z"
+              "WhenOpened": "2025-10-02T17:43:42.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PageResult.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\PageResult.cs",
-              "RelativeDocumentMoniker": "Models\\PageResult.cs",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\PageResult.cs",
-              "RelativeToolTip": "Models\\PageResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ClienteListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\ClienteListViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ClienteListViewModel.cs",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\ClienteListViewModel.cs",
+              "RelativeToolTip": "Models\\ClienteListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T16:50:09.361Z"
+              "WhenOpened": "2025-11-03T19:27:01.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\IClienteService.cs",
+              "RelativeDocumentMoniker": "Services\\IClienteService.cs",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\IClienteService.cs",
+              "RelativeToolTip": "Services\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T18:00:08.126Z"
+              "WhenOpened": "2025-11-05T16:18:50.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\ClienteService.cs",
+              "RelativeToolTip": "Services\\ClienteService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwBoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:21:23.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViaCepService.cs",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\ViaCepService.cs",
+              "RelativeDocumentMoniker": "Services\\ViaCepService.cs",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\ViaCepService.cs",
+              "RelativeToolTip": "Services\\ViaCepService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T18:04:06.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T18:03:26.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -185,25 +220,66 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:47:00.959Z"
+              "WhenOpened": "2025-10-08T16:47:00.959Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T17:56:20.931Z"
+              "DocumentIndex": 9,
+              "Title": "AppServiceResult.cs",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\AppServiceResult.cs",
+              "RelativeDocumentMoniker": "Services\\AppServiceResult.cs",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\AppServiceResult.cs",
+              "RelativeToolTip": "Services\\AppServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T18:03:38.539Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Clientes\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Clientes\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-03T15:18:03.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T18:00:08.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddClienteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\AddClienteViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AddClienteViewModel.cs",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\AddClienteViewModel.cs",
+              "RelativeToolTip": "Models\\AddClienteViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T15:18:42.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -215,31 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-30T18:05:15.186Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-30T18:05:23.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -251,55 +303,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ViaCepService.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\ViaCepService.cs",
-              "RelativeDocumentMoniker": "Services\\ViaCepService.cs",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\ViaCepService.cs",
-              "RelativeToolTip": "Services\\ViaCepService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "PageResult.cs",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\PageResult.cs",
+              "RelativeDocumentMoniker": "Models\\PageResult.cs",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\PageResult.cs",
+              "RelativeToolTip": "Models\\PageResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T18:04:06.96Z"
+              "WhenOpened": "2025-10-31T16:50:09.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoggerService.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\LoggerService.cs",
-              "RelativeDocumentMoniker": "Services\\LoggerService.cs",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\LoggerService.cs",
-              "RelativeToolTip": "Services\\LoggerService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T18:03:37.629Z"
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T17:56:20.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T18:05:15.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T18:05:23.081Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "AppServiceResult.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\AppServiceResult.cs",
-              "RelativeDocumentMoniker": "Services\\AppServiceResult.cs",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Services\\AppServiceResult.cs",
-              "RelativeToolTip": "Services\\AppServiceResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T18:03:38.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T18:03:26.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "EditClienteViewModel.cs",
               "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\EditClienteViewModel.cs",
               "RelativeDocumentMoniker": "Models\\EditClienteViewModel.cs",
@@ -311,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "EnderecoViaCep.cs",
               "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\EnderecoViaCep.cs",
               "RelativeDocumentMoniker": "Models\\EnderecoViaCep.cs",
@@ -323,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Clientes\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\Add.cshtml",
@@ -332,30 +384,6 @@
               "ViewState": "AgIAAK4AAAAAAAAAAMBVwMIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-03T15:18:57.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AddClienteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\AddClienteViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\AddClienteViewModel.cs",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Models\\AddClienteViewModel.cs",
-              "RelativeToolTip": "Models\\AddClienteViewModel.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T15:18:42.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Clientes\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Clientes\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\debor\\source\\repos\\DeboraESNeves\\Formul-rio-de-Cadastro-Cliente\\Formulario Cadastro Cliente\\Views\\Clientes\\Editar.cshtml",
-              "RelativeToolTip": "Views\\Clientes\\Editar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-03T15:18:03.274Z"
             }
           ]
         }

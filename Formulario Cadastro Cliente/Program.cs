@@ -1,12 +1,14 @@
 using Formulario_Cadastro_Cliente;
 using Formulario_Cadastro_Cliente.Data;
 using Formulario_Cadastro_Cliente.Models;
+using Formulario_Cadastro_Cliente.Services;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();
+builder.Services.AddScoped<IClienteService, ClienteService>();
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>

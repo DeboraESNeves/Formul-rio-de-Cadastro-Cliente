@@ -1,5 +1,6 @@
 ﻿using Formulario_Cadastro_Cliente.Data;
 using Formulario_Cadastro_Cliente.Models;
+using Formulario_Cadastro_Cliente.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,10 +10,12 @@ namespace Formulario_Cadastro_Cliente.Controllers
     {
         private readonly AppDbContext dbContext;
         private readonly HttpClient _httpClient;
-        public ClientesController(AppDbContext dbContext, IHttpClientFactory httpClientFactory)
+        private readonly IClienteService _clienteService;
+        public ClientesController(AppDbContext dbContext, IHttpClientFactory httpClientFactory, IClienteService clienteService)
         {
             this.dbContext = dbContext;
             _httpClient = httpClientFactory.CreateClient();
+            _clienteService = clienteService;
         }
 
         private async Task<EnderecoViaCep> ConsultarEnderecoPorCep(string cep)
@@ -76,37 +79,16 @@ namespace Formulario_Cadastro_Cliente.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> List(int pagina = 1, bool apenasAtivos = false)
+        public async Task<IActionResult> List(int pagina = 1, bool apenasAtivos = false, string searchString = null)
         {
-            const int tamanhoPagina = 10;
+            var viewModel = await _clienteService.GetClienteListViewModelAsync(
+   
+                pagina,
+                apenasAtivos,
+                searchString
+            );
 
-            var clientesQuery = dbContext.Clientes
-                .Include(c => c.Endereco)
-                .AsQueryable();
-
-            if (apenasAtivos)
-            {
-                clientesQuery = clientesQuery.Where(c => c.Ativo);
-            }
-
-            int totalItens = await clientesQuery.CountAsync();
-
-            var pageResult = new PageResult(totalItens, pagina, tamanhoPagina);
-            var clientesPagina = await clientesQuery
-                .Skip((pageResult.PaginaAtual - 1) * pageResult.TamanhoPagina)
-                .Take(pageResult.TamanhoPagina)
-                .ToListAsync();
-
-            var viewModel = new ClienteListViewModel
-            {
-                Clientes = clientesPagina,
-                Paginacao = pageResult,
-                ApenasAtivos = apenasAtivos
-            };
-
-            //var clientes = await clientesQuery.ToListAsync();
-            //ViewBag.ApenasAtivos = apenasAtivos;
-
+    
             return View(viewModel);
         }
 
