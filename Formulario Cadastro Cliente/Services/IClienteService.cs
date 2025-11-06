@@ -8,5 +8,10 @@ namespace Formulario_Cadastro_Cliente.Services
             int pagina,
             bool apenasAtivos,
             string searchString);
+        Task<AppServiceResult<Cliente>> AdicionarClienteAsync(AddClienteViewModel viewModel);
+        Task<Cliente> ObterClientePorIdAsync(int id);
+        Task<AppServiceResult<Cliente>> AtualizarClienteAsync(EditClienteViewModel viewModel);
+        Task<bool> DeletarClienteAsync(int id);
+        Task<bool> CpfJaExisteAsync(string cpf, int? clienteIdParaIgnorar = null);
     }
 }

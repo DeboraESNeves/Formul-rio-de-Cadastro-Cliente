@@ -70,6 +70,14 @@ else
     @if (pageResult.TotalPaginas > 0)
     {
         <ul class="pagination justify-content-center">
+           
+            <li class="page-item @(pageResult.PaginaAtual == 1 ? "disabled" : "")">
+                <a class="page-link" asp-controller="Clientes" asp-action="List"
+                asp-route-pagina="@(pageResult.PaginaAtual-1)"
+                asp-route-apenasAtivos="@Model.ApenasAtivos.ToString().ToLower()"
+                asp-route-searchString="@Model.SearchString">&laquo;                </a>
+            </li>
+
             @for (var pge = pageResult.PaginaInicial; pge <= pageResult.PaginaFinal; pge++)
             {
                 <li class="page-item @(pge == pageResult.PaginaAtual ? "active" : "")">
@@ -81,6 +89,13 @@ else
                        asp-route-searchString="@Model.SearchString">@pge</a>
                 </li>
             }
+
+            <li class="page-item" @(pageResult.PaginaAtual == pageResult.TotalPaginas ? "disabled": "")>
+                <a class="page-link" asp-controller="Clientes" asp-action="List"
+                asp-route-pagina="@(pageResult.PaginaAtual + 1)"
+                asp-route-apenasAtivos="@Model.ApenasAtivos.ToString().ToLower()"
+                asp-route-searchString="@Model.SearchString">&raquo;</a>
+            </li>
         </ul>
     }
 </div>

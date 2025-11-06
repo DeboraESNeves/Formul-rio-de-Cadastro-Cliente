@@ -9,6 +9,8 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<IClienteService, ClienteService>();
+builder.Services.AddScoped<LoggerService>();
+builder.Services.AddHttpClient<ViaCepService>();
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
