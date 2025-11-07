@@ -185,3 +185,4 @@ C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formula
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\Formulario Cadastro Cliente.pdb
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\Formulario Cadastro Cliente.genruntimeconfig.cache
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\ref\Formulario Cadastro Cliente.dll
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\libman.json

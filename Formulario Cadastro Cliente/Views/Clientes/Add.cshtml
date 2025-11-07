@@ -27,33 +27,33 @@
     </div>
 
     <div class="mt-3">
-        <label class="form-label">CPF</label>
-        <input type="text" class="form-control"
-               placeholder="000.000.000-00"
-               maxlength="14"
-               pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
-               title="Informe um CPF no formato 000.000.000-00"
-               required
-               asp-for="Cpf"
-               id="Cpf" />
-        <span asp-validation-for="Cpf" class="text-danger"></span>
-
+    <label class="form-label">CPF</label>
+    <input type="text"
+           class="form-control cpf"
+           placeholder="000.000.000-00"
+           maxlength="14"
+           pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+           title="Informe um CPF no formato 000.000.000-00"
+           required
+           asp-for="Cpf"
+           id="Cpf" />
+    <span asp-validation-for="Cpf" class="text-danger"></span>
     </div>
 
     <div class="mt-3">
         <label class="form-label">Email</label>
         <input type="email" class="form-control"
-               placeholder="cliente@email.com"
+               placeholder="Cliente@email.com"
                asp-for="Email"
                id="Email" />
     </div>
 
     <div class="mt-3">
         <label class="form-label">Telefone</label>
-        <input type="text" class="form-control"
+        <input type="text" class="form-control telefone"
                placeholder="(11)91234-5678"
                maxlength="15"
-               pattern="\(\d{2}\)\s?\d{4,5}-\d{4}"
+               pattern="\(\d{2}\)\d{4,5}-\d{4}"
                title="Informe um número de telefone válido no formato (11)91234-5678"
                required
                asp-for="Telefone"
@@ -62,7 +62,8 @@
 
     <div class="mt-3">
         <label class="form-label">CEP</label>
-        <input type="text" class="form-control"
+        <input type="text"
+               class="form-control"
                maxlength="8"
                pattern="\d{8}"
                asp-for="CEP"
