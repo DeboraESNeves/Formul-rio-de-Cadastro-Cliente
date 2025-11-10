@@ -178,7 +178,6 @@ C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formula
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\Formular.BF7F1A4E.Up2Date
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\Formulario Cadastro Cliente.dll
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\refint\Formulario Cadastro Cliente.dll
@@ -186,3 +185,4 @@ C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formula
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\Formulario Cadastro Cliente.genruntimeconfig.cache
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\ref\Formulario Cadastro Cliente.dll
 C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\bin\Debug\net8.0\libman.json
+C:\Users\debor\source\repos\DeboraESNeves\Formul-rio-de-Cadastro-Cliente\Formulario Cadastro Cliente\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,14 +1,8 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-
-@model Formulario_Cadastro_Cliente.Models.AddClienteViewModel
+﻿@model Formulario_Cadastro_Cliente.Models.AddClienteViewModel
 
 <h1>Adicionar Cliente</h1>
 
-@if(!ViewData.ModelState.IsValid)
+@if (!ViewData.ModelState.IsValid)
 {
     <div class="alert alert-danger">
         <ul>
@@ -27,17 +21,17 @@
     </div>
 
     <div class="mt-3">
-    <label class="form-label">CPF</label>
-    <input type="text"
-           class="form-control cpf"
-           placeholder="000.000.000-00"
-           maxlength="14"
-           pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
-           title="Informe um CPF no formato 000.000.000-00"
-           required
-           asp-for="Cpf"
-           id="Cpf" />
-    <span asp-validation-for="Cpf" class="text-danger"></span>
+        <label class="form-label">CPF</label>
+        <input type="text"
+               class="form-control cpf"
+               placeholder="000.000.000-00"
+               maxlength="14"
+               pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+               title="Informe um CPF no formato 000.000.000-00"
+               required
+               asp-for="Cpf"
+               id="Cpf" />
+        <span asp-validation-for="Cpf" class="text-danger"></span>
     </div>
 
     <div class="mt-3">
@@ -114,8 +108,12 @@
                 const email = document.getElementById("Email").value.trim();
                 const telefone = document.getElementById("Telefone").value.trim();
                 const cep = document.getElementById("CEP").value.trim();
+                const rua = document.getElementById("Rua").value.trim();
+                const bairro = document.getElementById("Bairro").value.trim();
+                const cidade = document.getElementById("Cidade").value.trim();
+                const estado = document.getElementById("Estado").value.trim();
 
-                // Validacao de campos obrigatórios
+                // Campos obrigatórios básicos
                 if (nome === "") {
                     valido = false;
                     mensagens.push("O campo Nome é obrigatório.");
@@ -132,12 +130,23 @@
                     valido = false;
                     mensagens.push("O campo Telefone é obrigatório.");
                 }
+
+                // Se o CEP estiver vazio-endereço manual
                 if (cep === "") {
-                    valido = false;
-                    mensagens.push("O campo CEP é obrigatório.");
+                    if (rua === "" || bairro === "" || cidade === "" || estado === "") {
+                        valido = false;
+                        mensagens.push("Preencha o endereço completo (Rua, Bairro, Cidade e Estado) se não informar o CEP.");
+                    }
+                } else {
+                    // CEP informado
+                    const cepRegex = /^\d{8}$/;
+                    if (!cepRegex.test(cep)) {
+                        valido = false;
+                        mensagens.push("CEP deve conter exatamente 8 dígitos numéricos.");
+                    }
                 }
 
-                // Validacao de formatos
+                // Validação de formatos
                 const cpfRegex = /^\d{3}\.\d{3}\.\d{3}-\d{2}$/;
                 if (cpf && !cpfRegex.test(cpf)) {
                     valido = false;
@@ -150,49 +159,16 @@
                     mensagens.push("Telefone deve estar no formato (11)91234-5678.");
                 }
 
-                const cepRegex = /^\d{8}$/;
-                if (cep && !cepRegex.test(cep)) {
-                    valido = false;
-                    mensagens.push("CEP deve conter exatamente 8 dígitos numéricos.");
-                }
-
                 if (!valido) {
                     e.preventDefault();
                     alert(mensagens.join("\n"));
                 }
             });
 
-            // gera endereco ao cdigitar cep na view
-            const cepInput = document.getElementById("CEP");
-            cepInput.addEventListener("blur", function () {
-                const cep = cepInput.value.trim();
-
-                if (cep.length === 8 && /^\d{8}$/.test(cep)) {
-                    fetch(`https://viacep.com.br/ws/${cep}/json/`)
-                        .then(response => response.json())
-                        .then(data => {
-                            if (!data.erro) {
-                                document.getElementById("Rua").value = data.logradouro || "";
-                                document.getElementById("Bairro").value = data.bairro || "";
-                                document.getElementById("Cidade").value = data.localidade || "";
-                                document.getElementById("Estado").value = data.uf || "";
-                            } else {
-                                alert("CEP não encontrado.");
-                            }
-                        })
-                        .catch(error => {
-                            console.error("Erro ao consultar o CEP:", error);
-                            alert("Erro ao consultar o CEP.");
-                        });
-                }
-            });
-
         });
     </script>
+
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-
-   
 }
-

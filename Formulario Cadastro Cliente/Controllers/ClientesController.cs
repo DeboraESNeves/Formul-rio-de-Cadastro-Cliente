@@ -88,16 +88,16 @@ namespace Formulario_Cadastro_Cliente.Controllers
             if (!resultado.IsSuccess)
             {
                 ModelState.AddModelError("Cpf", resultado.ErrorMessage);
-                return View(resultado);
+                return View(viewModel);
             }
 
             return RedirectToAction("List");
         }
 
         [HttpPost]
-        public async Task<IActionResult> Deletar(Cliente viewModel)
+        public async Task<IActionResult> Deletar(int id)
         {
-            await _clienteService.DeletarClienteAsync(viewModel.Id);
+            await _clienteService.DeletarClienteAsync(id);
             return RedirectToAction("List");
         }
     }

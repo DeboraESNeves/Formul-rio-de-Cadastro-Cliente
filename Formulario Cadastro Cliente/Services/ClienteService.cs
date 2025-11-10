@@ -63,7 +63,20 @@ namespace Formulario_Cadastro_Cliente.Services
             if (await CpfJaExisteAsync(viewModel.Cpf))
                 return AppServiceResult<Cliente>.Failure("Já existe um cliente com este CPF.");
 
-            var enderecoViaCep = await _viaCepService.ConsultarEnderecoPorCepAsync(viewModel.CEP);
+            if (string.IsNullOrWhiteSpace(viewModel.CEP))
+            {
+                if (string.IsNullOrWhiteSpace(viewModel.Rua) ||
+                    string.IsNullOrWhiteSpace(viewModel.Bairro) ||
+                    string.IsNullOrWhiteSpace(viewModel.Cidade) ||
+                    string.IsNullOrWhiteSpace(viewModel.Estado))
+                {
+                    return AppServiceResult<Cliente>.Failure("Preencha o endereço completo (Rua, Bairro, Cidade e Estado) se não informar o CEP.");
+                }
+            }
+
+            var enderecoViaCep = !string.IsNullOrWhiteSpace(viewModel.CEP)
+                    ? await _viaCepService.ConsultarEnderecoPorCepAsync(viewModel.CEP)
+                    : null;
 
             var cliente = new Cliente
             {
@@ -74,7 +87,7 @@ namespace Formulario_Cadastro_Cliente.Services
                 Ativo = viewModel.Ativo,
                 Endereco = new Endereco
                 {
-                    CEP = viewModel.CEP,
+                    CEP = string.IsNullOrWhiteSpace(viewModel.CEP) ? null : viewModel.CEP,
                     Rua = enderecoViaCep?.Logradouro ?? viewModel.Rua,
                     Bairro = enderecoViaCep?.Bairro ?? viewModel.Bairro,
                     Cidade = enderecoViaCep?.Localidade ?? viewModel.Cidade,
@@ -110,11 +123,25 @@ namespace Formulario_Cadastro_Cliente.Services
             cliente.Telefone = viewModel.Telefone;
             cliente.Ativo = viewModel.Ativo;
 
-            cliente.Endereco.CEP = viewModel.CEP;
-            cliente.Endereco.Rua = viewModel.Rua;
-            cliente.Endereco.Bairro = viewModel.Bairro;
-            cliente.Endereco.Cidade = viewModel.Cidade;
-            cliente.Endereco.Estado = viewModel.Estado;
+            if (!string.IsNullOrWhiteSpace(viewModel.CEP))
+            {
+                var enderecoViaCep = await _viaCepService.ConsultarEnderecoPorCepAsync(viewModel.CEP);
+
+                cliente.Endereco.CEP = viewModel.CEP;
+                cliente.Endereco.Rua = enderecoViaCep?.Logradouro ?? viewModel.Rua;
+                cliente.Endereco.Bairro = enderecoViaCep?.Bairro ?? viewModel.Bairro;
+                cliente.Endereco.Cidade = enderecoViaCep?.Localidade ?? viewModel.Cidade;
+                cliente.Endereco.Estado = enderecoViaCep?.Uf ?? viewModel.Estado;
+            }
+            else
+            {
+                cliente.Endereco.CEP = null;
+                cliente.Endereco.Rua = viewModel.Rua;
+                cliente.Endereco.Bairro = viewModel.Bairro;
+                cliente.Endereco.Cidade = viewModel.Cidade;
+                cliente.Endereco.Estado = viewModel.Estado;
+            }
+
 
             await _dbContext.SaveChangesAsync();
             return AppServiceResult<Cliente>.Success(cliente);
@@ -124,6 +151,8 @@ namespace Formulario_Cadastro_Cliente.Services
         {
             var cliente = await ObterClientePorIdAsync(id);
             if (cliente == null) return false;
+            _dbContext.Clientes.Remove(cliente);
+            await _dbContext.SaveChangesAsync();
             return true;
         }
 

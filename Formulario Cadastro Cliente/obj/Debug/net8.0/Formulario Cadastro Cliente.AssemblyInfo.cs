@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Formulario Cadastro Cliente")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2be6b00244030c97c4fd026e47f940793ab4db97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8de3ae4a3ebea991dd4aa1a5405d713f1b997395")]
 [assembly: System.Reflection.AssemblyProductAttribute("Formulario Cadastro Cliente")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Formulario Cadastro Cliente")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
