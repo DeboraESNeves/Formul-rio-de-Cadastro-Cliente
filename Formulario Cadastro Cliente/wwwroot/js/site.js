@@ -16,3 +16,22 @@ function abrirModalDeletar(id) {
         modal.show();
     }
 }
+
+// enter leva ao proximo campo
+document.addEventListener("DOMContentLoaded", function () {
+    const inputs = document.querySelectorAll("input, select, textarea");
+
+    inputs.forEach((input, index) => {
+        input.addEventListener("keydown", function (e) {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                const next = inputs[index + 1];
+                if (next) {
+                    next.focus();
+                } else {
+                    input.form?.submit();
+                }
+            }
+        });
+    });
+});
