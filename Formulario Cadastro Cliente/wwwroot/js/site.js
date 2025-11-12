@@ -17,6 +17,7 @@ function abrirModalDeletar(id) {
     }
 }
 
+
 // enter leva ao proximo campo
 document.addEventListener("DOMContentLoaded", function () {
     const inputs = document.querySelectorAll("input, select, textarea");

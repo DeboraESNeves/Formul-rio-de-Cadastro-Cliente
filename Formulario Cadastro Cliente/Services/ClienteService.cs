@@ -1,6 +1,8 @@
 ﻿using Formulario_Cadastro_Cliente.Data;
 using Formulario_Cadastro_Cliente.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
+using System.Text;
 
 
 namespace Formulario_Cadastro_Cliente.Services
@@ -17,6 +19,24 @@ namespace Formulario_Cadastro_Cliente.Services
             _dbContext = dbContext;
             _viaCepService = viaCepService;
         }
+        private static string NormalizarTexto(string texto)
+        {
+            if (string.IsNullOrEmpty(texto))
+                return string.Empty;
+
+            var normalized = texto.Normalize(NormalizationForm.FormD);
+            var sb = new StringBuilder();
+
+            foreach (var c in normalized)
+            {
+                var unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(c);
+                if (unicodeCategory != UnicodeCategory.NonSpacingMark)
+                    sb.Append(c);
+            }
+
+            var semPontuacao = System.Text.RegularExpressions.Regex.Replace(sb.ToString(), @"[\p{P}\p{S}\s]", "");
+            return semPontuacao.ToLowerInvariant();
+        }
 
         public async Task<ClienteListViewModel> GetClienteListViewModelAsync(
             int pagina,
@@ -25,6 +45,7 @@ namespace Formulario_Cadastro_Cliente.Services
         {
             var clientesQuery = _dbContext.Clientes
                 .Include(c => c.Endereco)
+                .OrderBy(c => c.Nome)
                 .AsQueryable();
 
             if (apenasAtivos)
@@ -32,23 +53,58 @@ namespace Formulario_Cadastro_Cliente.Services
                 clientesQuery = clientesQuery.Where(c => c.Ativo);
             }
 
-            if (!String.IsNullOrEmpty(searchString))
+            List<Cliente> clientesFiltrados;
+
+            if (!string.IsNullOrWhiteSpace(searchString))
             {
-                var termoBusca = searchString.ToLower();
-                clientesQuery = clientesQuery.Where(c =>
-                    c.Nome.ToLower().Contains(termoBusca) ||
-                    c.Cpf.Contains(termoBusca)
-                );
+                searchString = searchString.Trim();
+
+                var termoBusca = NormalizarTexto(searchString);
+
+                if (int.TryParse(termoBusca, out int id))
+                {
+                    clientesFiltrados = await clientesQuery.Where(c => c.Id == id).ToListAsync();
+                }
+                else
+                {
+                    // Remove o que n e numero
+                    var numeros = System.Text.RegularExpressions.Regex.Replace(termoBusca, @"\D", "");
+
+                    if (numeros.Length == 11)
+                    {
+                        
+                        var clientes = await clientesQuery.ToListAsync();
+
+                        // Agora filtra em memoria
+                        clientesFiltrados = clientes
+                            .Where(c => System.Text.RegularExpressions.Regex.Replace(c.Cpf ?? "", @"\D", "") == numeros)
+                            .ToList();
+                    }
+                    else
+                    {
+                        clientesFiltrados = await clientesQuery.ToListAsync();
+                        clientesFiltrados = clientesFiltrados
+                            .Where(c => NormalizarTexto(c.Nome).Contains(termoBusca))
+                            .ToList();
+                    }
+                }
+
+
+            }
+            else
+            {
+                clientesFiltrados = await clientesQuery.ToListAsync();
             }
 
-            int totalItens = await clientesQuery.CountAsync();
+
+            int totalItens = clientesFiltrados.Count;
 
             var pageResult = new PageResult(totalItens, pagina, TamanhoPagina);
 
-            var clientesPagina = await clientesQuery
+            var clientesPagina = clientesFiltrados
                 .Skip((pageResult.PaginaAtual - 1) * pageResult.TamanhoPagina)
                 .Take(pageResult.TamanhoPagina)
-                .ToListAsync();
+                .ToList();
 
             return new ClienteListViewModel
             {

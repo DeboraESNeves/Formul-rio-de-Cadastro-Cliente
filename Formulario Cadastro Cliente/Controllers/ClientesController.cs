@@ -41,13 +41,15 @@ namespace Formulario_Cadastro_Cliente.Controllers
         [HttpGet]
         public async Task<IActionResult> List(int pagina = 1, bool apenasAtivos = false, string searchString = null)
         {
+            searchString = searchString?.Trim();
+
             var viewModel = await _clienteService.GetClienteListViewModelAsync(
    
                 pagina,
                 apenasAtivos,
                 searchString
+              
             );
-
     
             return View(viewModel);
         }

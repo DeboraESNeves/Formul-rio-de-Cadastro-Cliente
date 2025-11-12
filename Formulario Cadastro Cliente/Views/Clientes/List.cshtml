@@ -12,7 +12,12 @@
 <div class="row">
     <div class="col-md-8 mx-auto mb-3">
         <form class="d-flex" asp-action="List" asp-controller="Clientes" method="get">
-            <input name="searchString" class="form-control me-3" type="search" placeholder="Pesquisar por nome, cpf ou id." aria-label="Buscar" value=" @Model.SearchString"/>
+            <input name="searchString"
+                   class="form-control me-3"
+                   type="search"
+                   placeholder="Pesquisar por nome, cpf ou id."
+                   aria-label="Buscar"
+                   value="@Model.SearchString" />
 
             <input type="hidden" name="apenasAtivos" value="@apenasAtivos.ToString().ToLower()" />
 
@@ -23,14 +28,14 @@
 </div>
 <div class="d-flex justify-content-center mb-3">
     <form method="get" asp-action="List" class="d-inline">
-        <input type="hidden" name="apenasAtivos" value="true"/>
+        <input type="hidden" name="apenasAtivos" value="true" />
         <button type="submit" class="btn btn-success">Apenas Ativos</button>
     </form>
 
     <form method="get" asp-action="List" class="d-inline">
         <input type="hidden" name="apenasAtivos" value="false" />
         <button type="submit" class="btn btn-secondary">Todos os clientes</button>
-        </form>
+    </form>
 
 </div>
 @if (Model.ApenasAtivos)
@@ -99,3 +104,20 @@ else
         </ul>
     }
 </div>
+@section Scripts {
+    <script>
+        const searchInput = document.querySelector('input[name="searchString"]');
+        const form = searchInput.closest('form');
+
+        // Detecta quando o usuário apaga tudo e sai do campo
+        searchInput.addEventListener('input', function () {
+            if (!this.value) {
+                // Se campo vazio envia o formulario novamente sem termo de busca
+                const url = new URL(window.location.href);
+                url.searchParams.delete('searchString');
+                url.searchParams.set('pagina', 1);
+                window.location.href = url.toString();
+            }
+        });
+    </script>
+}
