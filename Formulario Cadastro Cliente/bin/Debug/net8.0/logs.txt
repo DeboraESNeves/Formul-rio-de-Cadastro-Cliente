@@ -667,3 +667,4 @@ Exception: System.Text.Json.JsonException: The JSON value could not be converted
 [2025-11-10 14:22:26] [ERROR] Erro ao consultar ViaCEP: Value cannot be null. (Parameter 'source')
 [2025-11-10 14:30:56] [ERROR] Erro ao consultar ViaCEP: Value cannot be null. (Parameter 'source')
 [2025-11-10 14:48:20] [ERROR] Erro ao consultar ViaCEP: Value cannot be null. (Parameter 'source')
+[2025-11-12 15:22:18] [ERROR] Erro ao consultar ViaCEP: Este host não é conhecido. (viacep.com.br:443)

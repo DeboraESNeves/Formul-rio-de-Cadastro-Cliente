@@ -33,6 +33,6 @@ namespace Formulario_Cadastro_Cliente.Models
         [Required(ErrorMessage = "O estado é obrigatório")]
         public string Estado { get; set; }
 
-        public bool Ativo { get; set; } = true;
+        public bool Ativo { get; set; }
     }
 }

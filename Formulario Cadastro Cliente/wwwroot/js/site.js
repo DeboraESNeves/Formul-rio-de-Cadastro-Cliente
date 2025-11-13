@@ -36,3 +36,44 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+//campo fica vazio depois se cep incorreto
+document.addEventListener("DOMContentLoaded", function () {
+    const cepInput = document.getElementById('CEP');
+
+    if (cepInput) {
+        cepInput.addEventListener('blur', function () {
+            const cep = cepInput.value.replace(/\D/g, '');
+
+            if (cep.length === 8) {
+                fetch(`https://viacep.com.br/ws/${cep}/json/`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.erro) {
+                            alert('CEP não encontrado!');
+                            limparCamposEndereco();
+                        } else {
+                            document.getElementById('Rua').value = data.logradouro || '';
+                            document.getElementById('Bairro').value = data.bairro || '';
+                            document.getElementById('Cidade').value = data.localidade || '';
+                            document.getElementById('Estado').value = data.uf || '';
+                        }
+                    })
+                    .catch(() => {
+                        limparCamposEndereco();
+                    });
+            } else if (cep.length > 0) {
+                limparCamposEndereco();
+            }
+        });
+    }
+
+    function limparCamposEndereco() {
+        const campos = ['CEP', 'Rua', 'Bairro', 'Cidade', 'Estado'];
+        campos.forEach(id => {
+            const campo = document.getElementById(id);
+            if (campo) campo.value = '';
+        });
+    }
+});
+

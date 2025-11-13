@@ -89,7 +89,7 @@ namespace Formulario_Cadastro_Cliente.Controllers
 
             if (!resultado.IsSuccess)
             {
-                ModelState.AddModelError("Cpf", resultado.ErrorMessage);
+                ModelState.AddModelError(nameof(viewModel.Cpf), resultado.ErrorMessage);
                 return View(viewModel);
             }
 

@@ -72,7 +72,7 @@ namespace Formulario_Cadastro_Cliente.Services
 
                     if (numeros.Length == 11)
                     {
-                        
+
                         var clientes = await clientesQuery.ToListAsync();
 
                         // Agora filtra em memoria
@@ -161,11 +161,12 @@ namespace Formulario_Cadastro_Cliente.Services
         {
             return await _dbContext.Clientes
                 .Include(c => c.Endereco)
-                .FirstOrDefaultAsync(c=> c.Id == id);
+                .FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public async Task<AppServiceResult<Cliente>> AtualizarClienteAsync(EditClienteViewModel viewModel)
         {
+
             if (await CpfJaExisteAsync(viewModel.Cpf, viewModel.Id))
                 return AppServiceResult<Cliente>.Failure("Já existe um cliente com este CPF.");
 
@@ -177,7 +178,13 @@ namespace Formulario_Cadastro_Cliente.Services
             cliente.Cpf = viewModel.Cpf;
             cliente.Email = viewModel.Email;
             cliente.Telefone = viewModel.Telefone;
-            cliente.Ativo = viewModel.Ativo;
+            
+            if (cliente.Ativo != viewModel.Ativo)
+            {
+                cliente.Ativo = viewModel.Ativo;
+                _dbContext.Entry(cliente).Property(c => c.Ativo).IsModified = true;
+
+            }
 
             if (!string.IsNullOrWhiteSpace(viewModel.CEP))
             {
@@ -199,11 +206,25 @@ namespace Formulario_Cadastro_Cliente.Services
             }
 
 
-            await _dbContext.SaveChangesAsync();
-            return AppServiceResult<Cliente>.Success(cliente);
+            try
+            {
+
+                await _dbContext.SaveChangesAsync();
+                return AppServiceResult<Cliente>.Success(cliente);
+            }
+            catch (DbUpdateException ex)
+            {
+                // intercepta erro de violação de chave única (CPF duplicado)
+                return AppServiceResult<Cliente>.Failure("Já existe um cliente com este CPF.");
+            }
+            catch (Exception)
+            {
+                return AppServiceResult<Cliente>.Failure("Ocorreu um erro ao atualizar o cliente.");
+            }
+
         }
 
-        public async Task<bool> DeletarClienteAsync(int  id)
+        public async Task<bool> DeletarClienteAsync(int id)
         {
             var cliente = await ObterClientePorIdAsync(id);
             if (cliente == null) return false;
@@ -215,7 +236,7 @@ namespace Formulario_Cadastro_Cliente.Services
         public async Task<bool> CpfJaExisteAsync(string cpf, int? clienteIdParaIgnorar = null)
         {
             var query = _dbContext.Clientes.Where(c => c.Cpf == cpf);
-            if(clienteIdParaIgnorar.HasValue)
+            if (clienteIdParaIgnorar.HasValue)
                 query = query.Where(c => c.Id != clienteIdParaIgnorar.Value);
 
             return await query.AnyAsync();

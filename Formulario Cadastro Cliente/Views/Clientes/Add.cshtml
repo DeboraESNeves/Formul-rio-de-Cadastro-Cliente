@@ -84,9 +84,10 @@
         <input type="text" class="form-control" asp-for="Estado" id="Estado" />
     </div>
 
-    <div class="mt-3">
-        <input type="checkbox" class="form-check" asp-for="Ativo" id="Ativo" />
-        <label class="form-check-label" for="Ativo">Ativo</label>
+    <div class="form-check mt-3">
+        <input type="hidden" asp-for="Ativo" value="false" />
+        <input asp-for="Ativo" class="form-check-input" type="checkbox" value="true" />
+        <label asp-for="Ativo" class="form-check-label"></label>
     </div>
 
     <div class="mt-3">
