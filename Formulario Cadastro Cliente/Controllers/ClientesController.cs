@@ -102,5 +102,7 @@ namespace Formulario_Cadastro_Cliente.Controllers
             await _clienteService.DeletarClienteAsync(id);
             return RedirectToAction("List");
         }
+        
+
     }
 }

@@ -64,8 +64,26 @@ else
                 <td>@cliente.Nome</td>
                 <td>@cliente.Email</td>
                 <td>
-                    <a class="btn btn-primary" asp-controller="Clientes" asp-action="Editar" asp-route-id="@cliente.Id">Editar</a>
+                    <a class="btn btn-primary me-2"
+                       asp-controller="Clientes"
+                       asp-action="Editar"
+                       asp-route-id="@cliente.Id">
+                        Editar
+                    </a>
+
+                    <form asp-controller="Clientes"
+                          asp-action="Deletar"
+                          method="post"
+                          class="d-inline">
+                        <input type="hidden" name="id" value="@cliente.Id" />
+                        <button type="submit"
+                                class="btn btn-danger"
+                                onclick="return confirm('Tem certeza que deseja excluir este cliente?');">
+                            Deletar
+                        </button>
+                    </form>
                 </td>
+
             </tr>
         }
     </tbody>
