@@ -3,6 +3,7 @@ using Formulario_Cadastro_Cliente.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using System.Text;
+using System.Text.RegularExpressions;
 
 
 namespace Formulario_Cadastro_Cliente.Services
@@ -59,7 +60,12 @@ namespace Formulario_Cadastro_Cliente.Services
             {
                 searchString = searchString.Trim();
 
+                var somenteNumerosBusca = Regex.Replace(searchString, "[^0-9]", "");
+
+                bool buscouCpf = somenteNumerosBusca.Length == 11;
+
                 var termoBusca = NormalizarTexto(searchString);
+
 
                 if (int.TryParse(termoBusca, out int id))
                 {
@@ -68,24 +74,56 @@ namespace Formulario_Cadastro_Cliente.Services
                 else
                 {
                     // Remove o que n e numero
-                    var numeros = System.Text.RegularExpressions.Regex.Replace(termoBusca, @"\D", "");
+                    var numeros = System.Text.RegularExpressions.Regex.Replace(termoBusca, "[^0-9]", "");
 
                     if (numeros.Length == 11)
                     {
 
-                        var clientes = await clientesQuery.ToListAsync();
+                        var clientes = await clientesQuery
+                                .Select(c => new {
+                                    c.Id,
+                                    c.Nome,
+                                    c.Cpf,
+                                    c.Email,
+                                    c.Ativo,
+                                    Endereco = c.Endereco
+                                })
+                                .AsNoTracking()
+                                .ToListAsync();
 
-                        // Agora filtra em memoria
+
                         clientesFiltrados = clientes
-                            .Where(c => System.Text.RegularExpressions.Regex.Replace(c.Cpf ?? "", @"\D", "") == numeros)
+                            .Where(c => Regex.Replace(c.Cpf ?? "", "[^0-9]", "") == numeros)
+                            .Select(c => new Cliente
+                            {
+                                Id = c.Id,
+                                Nome = c.Nome,
+                                Cpf = c.Cpf,
+                                Email = c.Email,
+                                Ativo = c.Ativo,
+                                Endereco = c.Endereco
+                            })
                             .ToList();
+
                     }
                     else
                     {
-                        clientesFiltrados = await clientesQuery.ToListAsync();
-                        clientesFiltrados = clientesFiltrados
-                            .Where(c => NormalizarTexto(c.Nome).Contains(termoBusca))
-                            .ToList();
+                        if (buscouCpf)
+                        {
+                            var clientes = await clientesQuery.ToListAsync();
+
+                            clientesFiltrados = clientes
+                                .Where(c => Regex.Replace(c.Cpf ?? "", "[^0-9]", "") == somenteNumerosBusca)
+                                .ToList();
+                        }
+                        else
+                        {
+                            // busca por nome
+                            clientesFiltrados = await clientesQuery.ToListAsync();
+                            clientesFiltrados = clientesFiltrados
+                                .Where(c => NormalizarTexto(c.Nome).Contains(termoBusca))
+                                .ToList();
+                        }
                     }
                 }
 
@@ -116,6 +154,8 @@ namespace Formulario_Cadastro_Cliente.Services
         }
         public async Task<AppServiceResult<Cliente>> AdicionarClienteAsync(AddClienteViewModel viewModel)
         {
+            viewModel.Cpf = System.Text.RegularExpressions.Regex.Replace(viewModel.Cpf ?? "", "[^0-9]", "");
+
             if (await CpfJaExisteAsync(viewModel.Cpf))
                 return AppServiceResult<Cliente>.Failure("Já existe um cliente com este CPF.");
 
@@ -166,6 +206,7 @@ namespace Formulario_Cadastro_Cliente.Services
 
         public async Task<AppServiceResult<Cliente>> AtualizarClienteAsync(EditClienteViewModel viewModel)
         {
+            viewModel.Cpf = System.Text.RegularExpressions.Regex.Replace(viewModel.Cpf ?? "", "[^0-9]", "");
 
             if (await CpfJaExisteAsync(viewModel.Cpf, viewModel.Id))
                 return AppServiceResult<Cliente>.Failure("Já existe um cliente com este CPF.");
